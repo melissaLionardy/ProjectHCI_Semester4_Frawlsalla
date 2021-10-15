@@ -1,0 +1,487 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+.logo img
+{
+    width: 130px;
+    height: 80px;
+    margin: 0% 0% 0% 50%;
+}
+
+.Header
+{
+    display: flex;
+    background-color:#007dc5;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+button
+{
+    text-decoration: none;
+    border: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #007dc5;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+button:hover
+{
+    border: black;
+    border-style: solid;
+}
+
+nav ul 
+{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 0% 0% 30%;
+}
+
+nav ul li 
+{
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul
+{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0% 5% 0% 0%;
+    width: 200px;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    background-color: #0477b9;
+    width: 9%;
+}
+
+.Home:hover
+{
+    color: black;
+}
+
+.Game:hover
+{
+    color: black;
+}
+
+.Play:hover
+{
+    color: black;
+}
+
+nav ul button:hover 
+{
+    color: black;
+}
+
+.M1:hover
+{
+    color: black;
+}
+
+.M2:hover
+{
+    color: black;
+}
+
+.M3:hover
+{
+    color: black;
+}
+/* header */
+
+
+/* Play Now */
+
+.background
+{
+    background-image: url("../Assets/background2.png");
+    background-size: 100% 100%;
+    padding: 50% 0% 30% 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.box{
+    background-color: white;
+    width: 600px;
+    border: 1px solid;
+    margin: -20% 0% 0% 32.5%; 
+}
+
+.judul{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 25px;
+    padding: 1%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Iagree{
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text input[type = text]{
+    width: 90%;
+    height: 35px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 0% 0% 2%;
+    margin :2% 0% 0% 0%;
+}
+
+.text input[type = email]{
+    width: 90%;
+    height: 35px;
+    font-size: 25px;
+    padding-left: 2%;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin :2% 0% 0% 0%;
+}
+
+.text input[type = password]{
+    width: 90%;
+    height: 35px;
+    font-size: 25px;
+    padding-left: 2%;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin :2% 0% 0% 0%;
+}
+
+
+.regis input[type=submit]{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background-color: #007dc5;
+    border: 1px solid;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.er{
+    background-color :tomato;
+    margin-left: 6%;
+    margin-right: 8%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text input[type = radio]
+{
+    margin: 2% 2% 0% 0%;
+    
+}
+input[type="text"]::-webkit-input-placeholder
+{
+    font-size: 20px;
+}
+input[type="email"]::-webkit-input-placeholder
+{
+    font-size: 20px;
+}
+input[type="password"]::-webkit-input-placeholder
+{
+    font-size: 20px;
+}
+/* Play Now */
+
+
+/* footer */
+.Footer
+{
+    background-color: #dad9d9;
+    width: 100%;
+    height: 200px;
+    margin: 0% 0% 0% 0%;
+}
+
+
+.Visit
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1% 0% 0% 0%;
+}
+.Navfooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 0% 0% 0%;
+}
+
+.FB
+{
+    margin: 0% 1% 0% 0%;
+}
+
+.FB img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+}
+ 
+.IG img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+.Tweet
+{
+    margin: 0% 0% 0% 1%;
+}
+.Tweet img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%; 
+}
+
+.FB:hover
+{
+    background-color: white;
+}
+
+.IG:hover
+{
+    background-color: white;
+}
+.Tweet:hover
+{
+    background-color: white;
+}
+.TM
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 2% 0% 0% 5%;
+}
+.Plat
+{
+    font-size: 20px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 10% 0% 0%;
+}
+.Platform
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0% 0% 80%;
+}
+.Steam
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/steam-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Nitendo
+{ 
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/nintendo-switch.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Playstation
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/playstation-logotype.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Xbox
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/xbox-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+/* footer */
+
+@media screen and (max-width: 800px)
+{
+    button
+    {
+        font-size: 90%;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    nav ul li 
+    {
+        font-size: 100%;
+    }
+    nav ul li ul li:hover
+    {
+        width: 9px;
+    }
+
+
+    .box{
+        background-color: white;
+        width: 60%;
+        height: auto;
+        border: 1px solid;
+        margin: -20% 0% 0% 20%; 
+    }
+    .judul
+    {
+        font-size: 150%;
+        Padding-top: 3%;
+    }
+    .text
+    {
+        font-size: 90%;
+    }
+    .Iagree
+    {
+        font-size: 80%;
+    }
+    .er
+    {
+        font-size: 90%;
+        padding-left: 1%;
+    }
+    input[type="text"]::-webkit-input-placeholder
+    {
+        font-size: 80%;
+        padding-left: 1%;
+    }
+    input[type="email"]::-webkit-input-placeholder
+    {
+        font-size: 80%;
+        padding-left: 1%;
+    }
+    input[type="password"]::-webkit-input-placeholder
+    {
+        font-size: 80%;
+        padding-left: 1%;
+    }
+    
+    .text input[type = text]
+    {
+        width: 90%;
+        height: 28px;
+        font-size: 95%;
+    }
+
+    .text input[type = email]{
+        width: 90%;
+        height: 28px;
+        font-size: 95%;
+    }
+
+    .text input[type = password]{
+        width: 90%;
+        height: 28px;
+        font-size: 95%;
+    }
+
+
+    .regis input[type=submit]{
+        width: 30%;
+        height: 28px;
+        font-size: 95%;
+    }
+    .regis
+    {
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+    
+    .Footer
+    {
+        width: 100%;
+        height: 70%;
+    }
+
+    .Plat
+    {
+        font-size: 120%;
+        padding: 0% 5% 0% 0%;
+    }
+
+    .Platform
+    {
+        padding: 1% 0% 0% 78%;
+    }
+
+    .Steam
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Nitendo
+    { 
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Playstation
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Xbox
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+}

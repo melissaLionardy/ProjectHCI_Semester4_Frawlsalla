@@ -1,0 +1,801 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+.logo img
+{
+    width: 130px;
+    height: 80px;
+    margin: 0% 0% 0% 50%;
+}
+
+.Header
+{
+    display: flex;
+    background-color:#007dc5;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+button
+{
+    text-decoration: none;
+    border: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #007dc5;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+button:hover
+{
+    border: black;
+    border-style: solid;
+}
+
+nav ul 
+{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 0% 0% 30%;
+}
+
+nav ul li 
+{
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul
+{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0% 5% 0% 0%;
+    width: 200px;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    background-color: #0477b9;
+    width: 9%;
+}
+
+
+.Home:hover
+{
+    color: black;
+}
+
+.Game:hover
+{
+    color: black;
+}
+
+.Play:hover
+{
+    color: black;
+}
+
+nav ul button:hover 
+{
+    color: black;
+}
+
+.M1:hover
+{
+    color: black;
+}
+
+.M2:hover
+{
+    color: black;
+}
+
+.M3:hover
+{
+    color: black;
+}
+/* header */
+
+/*eventcontent*/
+body
+{
+    background: url("../Assets/background-blur.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.WhiteBox
+{
+    background: white;
+    width: 1300px;
+    height: 2500px;
+    margin: 5% 0% 0% 7%;
+}
+
+.garis-Content 
+{
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+
+}
+    /*1*/
+.headerEvent
+{
+    margin-left: 5%;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.garis
+{
+    margin: 4% 13% 4% 13%;
+    border-top: 3px solid black;
+}
+
+
+.UpperEvent img
+{
+    margin-left:5%;
+    width: 35%;
+}
+
+/*UpperEvent*/
+
+.event1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.event1 img 
+{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.description1
+{
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line
+{
+    
+    padding-bottom: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.desc1
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    font-size:20px;
+    text-align:center;
+    justify-content:justify;
+    line-height:4ch;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc1-1
+{
+
+    width: 600px;
+    font-size:20px;
+    text-align: justify;
+    line-height:4ch;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    /*1*/
+
+    /*2*/
+
+.event2
+{
+    display: flex;
+    justify-content:space-around
+}
+.event2 img
+{
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.description2
+{
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.desc2
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20%;
+    font-size:20px;
+    padding-left: 10%;
+    text-align:center;
+    line-height:4ch;
+    font-weight:bold;
+
+}
+.desc2-2
+{
+    margin-left: 10%;
+    margin-right: 1%;
+    width: 600px;
+    font-size:20px;
+    text-align: justify;
+    line-height:4ch;
+}
+    /*2*/
+
+    /*3*/
+.event3
+{
+    display: flex;
+    justify-content:space-between
+}
+.event3 img
+{
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.description3
+{
+    padding-right: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc3
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20%;
+    font-size:20px;
+    text-align:center;
+    justify-content:justify;
+    line-height:4ch;
+    font-weight:bold;
+}
+.desc3-3
+{
+    margin-left: 10%;
+    margin-right: 4%;
+    font-size:20px;
+    line-height:4ch;
+    text-align: justify;
+}
+
+    /*3*/
+
+    /*4*/
+.event4
+{
+    display: flex;
+    justify-content:space-around
+}
+.event4 img
+{
+    margin-top: 6%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+
+
+.desc4
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 20%;
+    font-size:20px;
+    text-align:center;
+    justify-content:justify;
+    line-height:4ch;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc4-4
+{
+    margin-left: 10%;
+    margin-right: 4%; 
+    font-size:20px;
+    justify-content:justify;
+    line-height:4ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    /*4*/
+/*UpperEvent*/
+
+
+
+/*BottomEvent*/
+ 
+.BottomEvent 
+{
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right:-6%;
+    display: flex;
+}
+
+    /*5*/
+.event5 img 
+{
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.description5
+{
+    margin-top:1%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    /* background-color: red; */
+}
+
+.desc5 
+{
+    margin-left: 1%;
+    line-height:3ch;
+    font-weight: bold;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc5-5
+{
+    justify-content:justify;
+    text-align:justify;
+    line-height:3ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /*5*/
+
+    /*6*/
+
+.event6
+{
+    margin-left: 10%;
+}
+.event6 img 
+{
+    width: 100%;
+    margin-left: -3%;
+}
+
+.description6
+{
+    margin-top:1%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+    justify-content:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc6 
+{
+    margin-left: 1%;
+    line-height:3ch;
+    font-weight: bold;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc6-6
+{
+    justify-content:justify;
+    text-align:justify;
+    line-height:3ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    /*6*/
+
+    /*7*/
+
+.event7
+{
+    margin-left: 10%;
+}
+.event7 img 
+{
+    width: 55%;
+    justify-content: space-evenly;
+}
+
+.description7
+{
+    margin-top:1%;
+    margin-bottom: 2%;
+    justify-content:justify;
+    margin-right: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.desc7 
+{
+    margin-left: 1%;
+    line-height:3ch;
+    font-weight: bold;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desc7-7
+{
+    justify-content:justify;
+    text-align:justify;
+    line-height:3ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    /*7*/
+
+
+
+
+
+
+/*BottomEvent*/
+
+
+
+/*eventcontent*/
+
+/* footer */
+.Footer
+{
+    background-color: #dad9d9;
+    width: 100%;
+    height: 200px;
+    margin: 6% 0% 0% 0%;
+}
+
+
+.Visit
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1% 0% 0% 0%;
+}
+.Navfooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 0% 0% 0%;
+}
+
+.FB
+{
+    margin: 0% 1% 0% 0%;
+}
+
+.FB img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+}
+ 
+.IG img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+.Tweet
+{
+    margin: 0% 0% 0% 1%;
+}
+.Tweet img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%; 
+}
+
+.FB:hover
+{
+    background-color: white;
+}
+
+.IG:hover
+{
+    background-color: white;
+}
+.Tweet:hover
+{
+    background-color: white;
+}
+.TM
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 2% 0% 0% 5%;
+}
+.Plat
+{
+    font-size: 20px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 10% 0% 0%;
+}
+.Platform
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0% 0% 80%;
+}
+.Steam
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/steam-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Nitendo
+{ 
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/nintendo-switch.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Playstation
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/playstation-logotype.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Xbox
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/xbox-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+/* footer */
+
+@media screen and (max-width: 800px)
+{
+    button
+    {
+        font-size: 90%;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    nav ul li 
+    {
+        font-size: 100%;
+    }
+    nav ul li ul li:hover
+    {
+        width: 10px;
+    }
+
+    .WhiteBox
+    {
+        width: 90%;
+        margin-left:5% ;
+        height: fit-content;
+    }
+    .headerEvent
+    {
+        font-size: 150%;
+    }
+    .event1
+    {
+        flex-direction: column;
+        margin: 9% 0% 0% 20%;
+        width: 130%;
+    }
+    .desc1
+    {
+        margin: 4% 0% 3% -53%;
+        font-size: 110%;
+    }
+    .desc1-1
+    {
+        margin: 4% 0% 3% -10%;
+        font-size: 90%;
+        width: 68%;
+    }
+    .event2
+    {
+        flex-direction: column-reverse;
+        margin: 0% 0% 0% 20%;
+        width: 130%;
+    }
+    .desc2
+    {
+        margin: 4% 0% 3% -25%;
+        font-size: 110%;
+        width: 80%;
+    }
+    .desc2-2
+    {
+        margin: 4% 0% 3% -10%;
+        font-size: 90%;
+        width: 68%;
+    }
+    .event3
+    {
+        flex-direction: column;
+        margin: 0% 0% 0% 20%;
+        width: 130%;
+    }
+    .desc3
+    {
+        margin: 4% 0% 3% -18%;
+        font-size: 110%;
+        width: 80%;
+    }
+    .desc3-3
+    {
+        margin: 4% 0% 3% -10%;
+        font-size: 90%;
+        width: 68%;
+    }
+    .event4
+    {
+        flex-direction: column-reverse;
+        margin: 0% 0% 0% 20%;
+        width: 130%;
+    }
+    .desc4
+    {
+        margin: 4% 0% 3% -18%;
+        font-size: 110%;
+        width: 80%;
+    }
+    .desc4-4
+    {
+        margin: 4% 0% 3% -10%;
+        font-size: 90%;
+        width: 68%;
+    }
+    .BottomEvent
+    {
+        flex-direction: column;
+    }
+    .event5
+    {
+        margin: 0% 0% 0% 15%;
+        width: 58%;
+    }
+    .desc5
+    {
+        margin: 4% 0% 3% 10%;
+        font-size: 110%;
+        width: 80%;
+    }
+    .desc5-5
+    {
+        margin: 4% 0% 3% -30%;
+        font-size: 90%;
+        width: 165%;
+    }
+    .event6
+    {
+        margin: 0% 0% 0% 15%;
+        width: 53%;
+    }
+    .desc6
+    {
+        margin: 4% 0% 3% 10%;
+        font-size: 110%;
+        width: 70%;
+    }
+    .desc6-6
+    {
+        margin: 4% 0% 3% -30%;
+        font-size: 90%;
+        width: 165%;
+    }
+    .event7
+    {
+        margin: 0% 0% 10% 15%;
+        width: 93%;
+    }
+    .desc7
+    {
+        margin: 4% 0% 3% 10%;
+        font-size: 110%;
+        width: 70%;
+    }
+    .desc7-7
+    {
+        margin: 4% 0% 3% -30%;
+        font-size: 90%;
+        width: 165%;
+    }
+    .TM
+    {
+        font-size: 80%;
+        padding: 2% 0% 0% 5%;
+    }
+
+    .Footer
+    {
+        width: 100%;
+        height: 70%;
+        margin: 6% 0% 0% 0%;
+    }
+
+    .Plat
+    {
+        font-size: 120%;
+        padding: 0% 5% 0% 0%;
+    }
+
+    .Platform
+    {
+        padding: 1% 0% 0% 78%;
+    }
+
+    .Steam
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Nitendo
+    { 
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Playstation
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Xbox
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+}
+
+
+
+

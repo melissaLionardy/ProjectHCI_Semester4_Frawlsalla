@@ -1,0 +1,1075 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+body
+{
+    background: url("../Assets/background-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.logo img
+{
+    width: 130px;
+    height: 80px;
+    margin: 0% 0% 0% 50%;
+}
+
+
+.Header
+{
+    display: flex;
+    background-color:#007dc5;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+button
+{
+    text-decoration: none;
+    border: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #007dc5;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+button:hover
+{
+    border: black;
+    border-style: solid;
+}
+
+nav ul 
+{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 0% 0% 30%;
+}
+
+nav ul li 
+{
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul
+{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0% 5% 0% 0%;
+    width: 200px;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    background-color: #0477b9;
+    width: 9%;
+}
+
+
+.Home:hover
+{
+    color: black;
+}
+
+.Game:hover
+{
+    color: black;
+}
+
+.Play:hover
+{
+    color: black;
+}
+
+nav ul button:hover 
+{
+    color: black;
+}
+
+.M1:hover
+{
+    color: black;
+}
+
+.M2:hover
+{
+    color: black;
+}
+
+.M3:hover
+{
+    color: black;
+}
+
+/* header */
+
+/* Characters */
+
+.WhiteBox
+{
+    background: white;
+    width: 1400px;
+    height: 6000px;
+    margin: 5% 0% 0% 4%;
+}
+
+.cont-header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+    font-size: 60px;
+    display :flex;
+    margin-top: 1%;
+    margin-left: 7%;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.lineHeader
+{
+    
+    margin: 1% 13% 0% 13%;
+    border-top: 3px solid black;
+    padding-bottom: 80px;
+    
+    
+    /* background-color:red */
+}
+
+.hero1
+{
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* background-color:red; */
+}
+.hero1 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid1
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1%;
+}
+
+.text-hero1
+{
+
+    padding-right: 150px;
+    
+    /* background-color:red */
+}
+.bodvar
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.bodvar-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    line-height:3ch;
+    
+    /* justify-content: space-evenly; */
+}
+
+
+.line
+{
+    
+    padding-bottom: 80px;
+    margin-left: 18%;
+    margin-right: 18%;
+
+}
+
+.hero2
+{
+    padding-bottom: 200px;
+    padding-right: 380px;
+    /* background-color:red; */
+}
+.hero2 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid2
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -5%;
+    
+}
+
+.text-hero2
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-top: -2%;
+    
+    /* background-color:red */
+}
+.cassidy
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.cassidy-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: -1%;
+    line-height:3ch;
+}
+
+
+.hero3
+{
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* background-color:red; */
+}
+.hero3 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid3
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1%;
+}
+
+.text-hero3
+{
+    padding-right: 150px;
+    
+    /* background-color:red */
+}
+.orion
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.orion-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 1%;
+    line-height:3ch;
+    /* justify-content: space-evenly; */
+}
+
+.hero4
+{
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-right: 380px;
+    /* background-color:red; */
+}
+.hero4 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid4
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -5%;
+    
+}
+
+.text-hero4
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-top: -2%;
+    
+    /* background-color:red */
+}
+.teros
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.teros-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: -1%;
+    line-height:3ch;
+   
+    
+}
+
+.hero5
+{
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* background-color:red; */
+}
+.hero5 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid5
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1%;
+}
+
+.text-hero5
+{
+    padding-right: 150px;
+    
+    /* background-color:red */
+}
+.kor
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.kor-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 1%;
+    line-height:3ch;
+    
+    /* justify-content: space-evenly; */
+}
+
+
+.hero6
+{
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-right: 380px;
+    /* background-color:red; */
+}
+.hero6 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid6
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -5%;
+    
+}
+
+.text-hero6
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-top: -2%;
+    
+    /* background-color:red */
+}
+.val
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.val-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: -1%;
+    line-height:3ch;
+}
+
+
+.hero7
+{
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* background-color:red; */
+}
+.hero7 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid7
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1%;
+}
+
+.text-hero7
+{
+    padding-right: 150px;
+    
+    /* background-color:red */
+}
+.nix
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.nix-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 1%;
+    line-height:3ch;
+    
+    /* justify-content: space-evenly; */
+}
+
+.hero8
+{
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-right: 380px;
+    /* background-color:red; */
+}
+.hero8 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid8
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -5%;
+    
+}
+
+.text-hero8
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-top: -2%;
+    
+    /* background-color:red */
+}
+.xull
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.xull-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: -1%;
+    line-height:3ch;
+   
+    
+}
+
+.hero9
+{
+    padding-bottom: 100px;
+    padding-right: 350px;
+    /* background-color:red; */
+}
+.hero9 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid9
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -1%;
+}
+
+.text-hero9
+{
+    padding-right: 150px;
+    
+    /* background-color:red */
+}
+.kaya
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.kaya-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 1%;
+    line-height:3ch;
+    
+    /* justify-content: space-evenly; */
+}
+
+.hero10
+{
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-right: 380px;
+    /* background-color:red; */
+}
+.hero10 img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    
+    
+    width:150%;
+    /* background-color:red */
+}
+.cont-mid10
+{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: -5%;
+    
+}
+
+.text-hero10
+{
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-top: -2%;
+    
+    /* background-color:red */
+}
+.thor
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.thor-desc
+{
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: -1%;
+    line-height:3ch; 
+    
+}
+/* Characters */
+
+/*FOOTER*/
+.Footer
+{
+    background-color: #dad9d9;
+    width: 100%;
+    height: 200px;
+    margin: 6% 0% 0% 0%;
+}
+
+
+.Visit
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1% 0% 0% 0%;
+}
+.Navfooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 0% 0% 0%;
+}
+
+.FB
+{
+    margin: 0% 1% 0% 0%;
+}
+
+.FB img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+}
+ 
+.IG img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+.Tweet
+{
+    margin: 0% 0% 0% 1%;
+}
+.Tweet img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%; 
+}
+
+.FB:hover
+{
+    background-color: white;
+}
+
+.IG:hover
+{
+    background-color: white;
+}
+.Tweet:hover
+{
+    background-color: white;
+}
+.TM
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 2% 0% 0% 5%;
+}
+.Plat
+{
+    font-size: 20px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 10% 0% 0%;
+}
+.Platform
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0% 0% 80%;
+}
+.Steam
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/steam-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Nitendo
+{ 
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/nintendo-switch.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Playstation
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/playstation-logotype.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+.Xbox
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/xbox-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+
+/* footer */
+
+
+@media screen and (max-width: 800px)
+{
+    button
+    {
+        font-size: 90%;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    nav ul li 
+    {
+        font-size: 100%;
+    }
+    nav ul li ul li:hover
+    {
+        width: 10px;
+    }
+
+    .WhiteBox
+    {
+        width: 93%;
+        height: fit-content;
+        margin: 10% 0% 0% 3.5%;
+    }
+    .Footer
+    {
+        width: 100%;
+        height: 70%;
+        margin: 10% 0% 0% 0%;
+    }
+    
+    .Plat
+    {
+        font-size: 120%;
+        padding: 0% 5% 0% 0%;
+    }
+
+    .Platform
+    {
+        padding: 1% 0% 0% 78%;
+    }
+    .cont-header
+    {
+        text-align: center;
+        font-size: 150%;
+        margin: -5%;
+    }
+    .cont-mid1
+    {
+        flex-direction: column;
+        
+    }
+    .hero1 img
+    { 
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .bodvar
+    {
+        text-align: center;
+        padding: 0% 0% 5% 30% ;
+        margin: -5% 0% 5% 0% ;
+        font-size: 130%;
+    }
+    .bodvar-desc
+    {
+        margin: 0% 0% 10% 20%;
+        width: 90%;
+    }
+    .hero2 img
+    { 
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .cassidy
+    {
+        text-align: center;
+        padding: 0% 30% 0% 0% ;
+        margin: -25% 0% 10% 0% ;
+        font-size: 130%;
+    }
+    .cassidy-desc
+    {
+        margin: 0% 00% 15% -8%;
+        width: 90%;
+    }
+    .cont-mid2
+    {
+        flex-direction: column-reverse;
+    }
+
+    .cont-mid3
+    {
+        flex-direction: column
+    }
+    .orion
+    {
+        text-align: center;
+        padding: 0% 0% 5% 30% ;
+        margin: -5% 0% 5% 0% ;
+        font-size: 130%;
+    }
+    .orion-desc
+    {
+        margin: 0% 0% 10% 20%;
+        width: 90%;
+    }
+    .hero3 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .cont-mid4
+    {
+        flex-direction: column-reverse;
+    }
+    .teros
+    {
+        text-align: center;
+        padding: 0% 30% 0% 0% ;
+        margin: -25% 0% 10% 0% ;
+        font-size: 130%;
+    }
+    .teros-desc
+    {
+        margin: 0% 00% 15% -8%;
+        width: 90%;
+    }
+    .hero4 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .cont-mid5
+    {
+        flex-direction: column;
+    }
+    .hero5 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+
+    }
+    .kor
+    {
+        text-align: center;
+        padding: 0% 0% 5% 30% ;
+        margin: -5% 0% 5% 0% ;
+        font-size: 130%;
+    }
+    .kor-desc
+    {
+        margin: 0% 0% 10% 20%;
+        width: 90%;  
+    }
+    .cont-mid6
+    {
+        flex-direction: column-reverse;
+    }
+    .hero6 img
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .val
+    {
+        text-align: center;
+        padding: 0% 30% 0% 0% ;
+        margin: -25% 0% 10% 0% ;
+        font-size: 130%;
+    }
+    .val-desc
+    {
+        margin: 0% 00% 15% -8%;
+        width: 90%;
+    }
+    .cont-mid7
+    {
+        flex-direction: column;
+    }
+    .hero7 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .nix
+    {
+        text-align: center;
+        padding: 0% 0% 5% 30% ;
+        margin: -5% 0% 5% 0% ;
+        font-size: 130%;
+    }
+    .nix-desc
+    {
+        margin: 0% 0% 10% 20%;
+        width: 90%;   
+    }
+    .cont-mid8
+    {
+        flex-direction: column-reverse;
+    }
+    .hero8 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .xull
+    {
+        text-align: center;
+        padding: 0% 30% 0% 0% ;
+        margin: -25% 0% 10% 0% ;
+        font-size: 130%;
+    }
+    .xull-desc
+    {
+        margin: 0% 00% 15% -8%;
+        width: 90%;
+    }
+    .cont-mid9
+    {
+        flex-direction: column;
+    }
+    .hero9 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .kaya
+    {
+        text-align: center;
+        padding: 0% 0% 5% 30% ;
+        margin: -5% 0% 5% 0% ;
+        font-size: 130%;
+    }
+    .kaya-desc
+    {
+        margin: 0% 0% 10% 20%;
+        width: 90%;  
+    }
+    .cont-mid10
+    {
+        flex-direction: column-reverse;
+    }
+    .hero10 img 
+    {
+        width: 60%;
+        margin: -10% 0% -10% 30% ;
+    }
+    .thor
+    {
+        text-align: center;
+        padding: 0% 30% 0% 0% ;
+        margin: -25% 0% 10% 0% ;
+        font-size: 130%;
+    }
+    .thor-desc
+    {
+        margin: 0% 00% 15% -8%;
+        width: 90%;
+    }
+    .Steam
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Nitendo
+    { 
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Playstation
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Xbox
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+}
+

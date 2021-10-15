@@ -1,0 +1,716 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+.logo img
+{
+    width: 130px;
+    height: 80px;
+    margin: 0% 0% 0% 50%;
+}
+
+.Header
+{
+    display: flex;
+    background-color:#007dc5;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+button
+{
+    text-decoration: none;
+    border: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #007dc5;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
+button:hover
+{
+    border: black;
+    border-style: solid;
+}
+
+nav ul 
+{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 0% 0% 30%;
+}
+
+nav ul li 
+{
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul
+{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0% 5% 0% 0%;
+    width: 200px;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    background-color: #0477b9;
+    width: 9%;
+}
+
+
+.Home:hover
+{
+    color: black;
+}
+
+.Game:hover
+{
+    color: black;
+}
+
+.Play:hover
+{
+    color: black;
+}
+
+nav ul button:hover 
+{
+    color: black;
+}
+
+.M1:hover
+{
+    color: black;
+}
+
+.M2:hover
+{
+    color: black;
+}
+
+.M3:hover
+{
+    color: black;
+}
+/* header */
+
+/* body */
+body
+{
+    background: url("../Assets/background-blur.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.WhiteBox
+{
+    background: white;
+    width: 1400px;
+    height: 1900px;
+    margin: 5% 0% 0% 4%;
+}
+
+.Header1
+{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5% 0% 0%  8%;
+}
+
+.S
+{
+    margin: 0;
+    padding: 0;
+    padding: 5% 0% 0% 2.5%;
+    display: flex;
+}
+
+.Slide img
+{
+    width: 1330px;
+    height: 440px;   
+}
+
+.SlideShow
+{
+    width: 1330px;
+    height: 440px; 
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.Slides
+{
+    display: flex;
+}
+
+.Slides input
+{
+  display: none
+}   
+
+.Slide
+{
+    width: 100%;
+    transition: 2s;
+}
+.Manualbtn
+{
+    position: absolute;
+    margin: -5% 0% 0% 45%;
+    display: flex;
+    justify-content: center;
+} 
+
+.Manual
+{  
+    border: 2px solid white;
+    margin: 0% 90% 0% 0%;
+    padding: 15% 200% 0% 0%;
+    cursor: pointer;
+    
+}
+.Manual:not(:last-child)
+{
+   margin-right: 40%;
+}
+
+.Manual:hover
+{
+    background-color: #a9a9a9;
+}
+
+ #R1:checked ~ .S1
+ {
+    margin-left: 1.6%;
+ }
+
+ #R2:checked ~ .S1
+ {
+    margin-left: -100%;
+ }
+
+ #R3:checked ~ .S1
+ {
+    margin-left: -200%;
+ }
+
+ #R4:checked ~ .S1
+ {
+    margin-left: -300%;
+ }
+
+ #R5:checked ~ .S1
+ {
+    margin-left: -400%;
+ }
+
+ #R6:checked ~ .S1
+ {
+    margin-left: -500%;
+ }
+
+ #R7:checked ~ .S1
+ {
+    margin-left: -600%;
+ }
+ 
+
+.Navbtn div:not(:last-child)
+{
+    margin-right: 40%;
+}
+
+#radio1:checked ~ .Navbtn .Navbtn1
+{
+    background: #a9a9a9;
+}
+.Navbtn
+{
+    position: absolute;
+    width: 1000px;
+}
+.Header2
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+}
+
+.Text1
+{
+    text-align: justify;
+    display: flex;
+    width: 1230px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0% 0% 0% 6%;
+}
+
+.Pict1
+{
+    width: 400px;
+    height: 200px;
+    background-image: url("../Assets/Pict1.jpg");
+    background-size: 100% 100%;
+    margin: 5% 0% 3% 0%;
+}
+.body .PAT1
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body .Header3
+{
+    font-weight: bold;
+    padding: 4% 0% 3% 0%;
+    font-size: 25px;
+}
+
+.body .T1
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Text2
+{
+    font-size: 20px;
+    text-align: justify;
+}
+.Pict2
+{
+    width: 400px;
+    height: 200px;
+    background-image: url("../Assets/Pict2.jpg");
+    background-size: 100% 100%;
+    margin: 0% 0% 3% 0%;
+}
+.body .PAT2
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 0% 0% 0% ;
+}
+
+.body .Header4
+{
+    font-weight: bold;
+    padding: 4% 0% 3% 0%;
+    font-size: 25px;
+}
+
+.body .T2
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Text3
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.Pict3
+{
+    width: 400px;
+    height: 200px;
+    background-image: url("../Assets/Pict3.jpg");
+    background-size: 100% 100%;
+    margin: 5% 0% 3% 0%;
+}
+
+.body .PAT3
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 0% 0% 0% ;
+}
+
+.body .Header5
+{
+    font-weight: bold;
+    padding: 4% 0% 3% 0%;
+    font-size: 25px;
+}
+
+.body .T3
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Text4
+{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* body */
+
+/* footer */
+ .Footer
+{
+    background-color: #dad9d9;
+    width: 100%;
+    height: 200px;
+    margin: 6% 0% 0% 0%;
+}
+
+.Visit
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1% 0% 0% 0%;
+}
+
+.Navfooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 0% 0% 0%;
+}
+
+.FB
+{
+    margin: 0% 1% 0% 0%;
+}
+
+.FB img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+}
+ 
+.IG img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%;
+    justify-content: center;
+}
+
+.Tweet
+{
+    margin: 0% 0% 0% 1%;
+}
+
+.Tweet img
+{
+    height: 20px;
+    width: 20px;
+    background-size: 100% 100%; 
+}
+
+.FB:hover
+{
+    background-color: white;
+}
+
+.IG:hover
+{
+    background-color: white;
+}
+
+.Tweet:hover
+{
+    background-color: white;
+}
+
+.TM
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 2% 0% 0% 5%;
+}
+
+.Plat
+{
+    font-size: 20px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 10% 0% 0%;
+}
+
+.Platform
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0% 0% 80%;
+}
+
+.Steam
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/steam-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+
+.Nitendo
+{ 
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/nintendo-switch.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+
+.Playstation
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/playstation-logotype.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+
+.Xbox
+{
+    width: 25px;
+    height: 25px;
+    background: url("../Assets/xbox-logo.png");
+    background-size: 100% 100%;
+    margin: 0% 4% 0% 0%;
+}
+/* footer */
+
+
+@media screen and (max-width: 800px)
+{
+    button
+    {
+        font-size: 90%;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    nav ul li 
+    {
+        font-size: 100%;
+    }
+    nav ul li ul li:hover
+    {
+        width: 10px;
+    }
+
+    .WhiteBox
+    {
+        width: 93%;
+        height: fit-content;
+    }
+    .Header1
+    {
+        font-size: 150%;
+    }
+     .Text1
+    {
+        width: 82.5%;
+        font-size: 92%;
+    }
+    .Header2
+    {
+        font-size: 130%;
+    }
+    .SlideShow
+    {
+        height: 90%;
+        width: 94%;
+        padding-left: 2%;
+    }
+    .Slide img
+    {
+        width: 650px;
+        height: 100%;   
+    }
+    #R1:checked ~ .S1
+    {
+        margin-left: -0.1%;
+    }
+
+    #R2:checked ~ .S1
+    {
+        margin-left: -101%;
+    
+    }
+
+    #R3:checked ~ .S1
+    {
+        margin-left: -201%;
+    }
+
+    #R4:checked ~ .S1
+    {
+        margin-left: -301%;
+    }
+
+    #R5:checked ~ .S1
+    {
+        margin-left: -401%;
+    }
+
+    #R6:checked ~ .S1
+    {
+        margin-left: -501%;
+    }
+
+    #R7:checked ~ .S1
+    {
+        margin-left: -601%;
+    }
+    .Manual
+    {
+        margin: 0% 100% 0% 0%;
+        padding: 20% 170% 0% 0%;
+    }
+    .body .PAT1
+    {
+       flex-direction: column;
+    }
+    .body .Pict1
+    {
+        width: 55%;
+        margin: 0% 0% 3% 0%;
+    }
+    .body .T1
+    {
+        width: 80%;
+    }
+    .body .Text2
+    {
+        font-size: 92%;
+    }
+    .body .Pict2
+    {
+        width: 55%;
+        margin: 0% 0% 3% 0%;
+    }
+    .body .T2
+    {
+        width: 80%;
+        padding-bottom: 5% ;
+    }
+    .body .PAT2
+    {
+       flex-direction:  column-reverse;
+    }
+    .body.Text3
+    {
+        font-size: 92%;
+    }
+
+    .body .Text3
+    {
+        font-size: 92%;
+    }
+    .body .Pict3
+    {
+        width: 55%;
+        margin: 0% 0% 3% 0%;
+    }
+    .body .T3
+    {
+        width: 80%;
+    }
+    .body .PAT3
+    {
+       flex-direction: column;
+    }
+    .body .Text4
+    {
+        font-size: 92%;
+        padding: 0% 0% 5% 0%;
+    }
+    .TM
+    {
+        font-size: 80%;
+        padding: 2% 0% 0% 5%;
+    }
+
+    .Footer
+    {
+        width: 100%;
+        height: 70%;
+        margin: 6% 0% 0% 0%;
+    }
+
+    .Plat
+    {
+        font-size: 120%;
+        padding: 0% 5% 0% 0%;
+    }
+
+    .Platform
+    {
+        padding: 1% 0% 0% 78%;
+    }
+
+    .Steam
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Nitendo
+    { 
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Playstation
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+
+    .Xbox
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0% 4% 0% 0%;
+    }
+}
+
+
+
+
